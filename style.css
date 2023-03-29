@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    
+    background-image: url(tration.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50px;
+    background-size: 100vh;
+    padding: 10px 10px 0px 0px;
+    overflow: hidden;
+    background-position: top 80px right 70px;
+}
+.nav{
+    display: flex;
+    margin-left: 26vh;
+    
+}
+.lgo{
+    color: black;
+}
+.list{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    gap:30px;
+    font-style: normal;
+    margin-top: 9px;
+    cursor: pointer;
+    
+   
+}
+.list-item:hover{
+    color: #5955b3;;
+
+}
+.lgo{
+    height: 40px;
+}
+.lgimg{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+    
+}
+.item{
+    position: relative;
+    right: 40px;
+}
+.nav-contain{
+    display: flex;
+}
+.btn{
+    position: relative;
+    left: 71vh; 
+    margin-top: 9px;
+}
+.butn{
+    display: flex;
+    padding: 6px 14px 6px 14px;
+    background-color:  #5955b3;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.butn:hover{
+    background-color: #5c4796;
+}
+.container{
+   margin-top: 25vh;
+   margin-left: 10vh;
+}
+.heading{
+    font-size: 10vh;
+    line-height: 74px;
+    color: #3c2f60;
+    font-style: normal;
+}
+.text{
+    color: #5955b3;
+}
+.teext{
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgb(130, 132, 133);
+    font-weight: 400;
+}
+.buttn{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color:  #5955b3;
+    border: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.buttn:hover{
+   background-color: #5c4796;
+}
