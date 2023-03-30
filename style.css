@@ -8,9 +8,7 @@ body{
     
     background-image: url(tration.png);
     background-repeat: no-repeat;
-    background-position: bottom 50px;
     background-size: 100vh;
-    padding: 10px 10px 0px 0px;
     overflow: hidden;
     background-position: top 80px right 70px;
 }
@@ -28,9 +26,8 @@ body{
     list-style: none;
     gap:30px;
     font-style: normal;
-    margin-top: 9px;
+    margin-top: 11.5px;
     cursor: pointer;
-    font-weight: bold;
     
    
 }
@@ -46,6 +43,7 @@ body{
     align-items: start;
     gap: 30px;
     position: relative;
+    top: 4px;
     right: 100px;
     cursor: pointer;
     
@@ -59,12 +57,12 @@ body{
 }
 .btn{
     position: relative;
-    left: 71vh; 
-    margin-top: 9px;
+    left: 70vh; 
+    margin-top: 7px;
 }
 .butn{
     display: flex;
-    padding: 6px 14px 6px 14px;
+    padding: 6px 16px 6px 16px;
     background-color:  #5955b3;
     border: none;
     color: #ffffff;
